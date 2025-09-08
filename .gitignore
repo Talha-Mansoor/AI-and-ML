@@ -1,0 +1,4 @@
+
+# ignore large data
+project 2 data/
+*.zip
