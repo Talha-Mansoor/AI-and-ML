@@ -1,6 +1,3 @@
-Here’s a **README.md** you can place at the root of your repository. It documents all three projects (`iris_knn`, `formula`, and `kmeans`) with context, setup, and usage instructions.
-
----
 
 # CMPT 423 Projects Repository
 
