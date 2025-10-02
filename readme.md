@@ -133,16 +133,5 @@ Each project includes a LaTeX-formatted report (`report.pdf`) stored in its proj
 
 ## 👨‍💻 Authors
 
-Developed as part of **CMPT 423-820** coursework (Winter 2025).
+Developed as part of **CMPT 423** coursework (Winter 2025).
 
----
-
-Do you want me to **merge this into a single README.md file** with code block formatting, or create **separate README files inside each project folder** as well?
-
-
-Medical References:
-1. None — DOI: file-467Snh1cUYSEjPxP8mSyfY
-2. None — DOI: file-Bnadjn6dyzx2aWSp8yEKEr
-3. None — DOI: file-AW8E4JrTsWbZyVFs5AXUWr
-4. None — DOI: file-RZi343n2UamLxYpGi6nMQx
-5. None — DOI: file-2QEjWyexSFsg3U2TeTqwHX
