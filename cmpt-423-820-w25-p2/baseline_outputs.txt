@@ -1,0 +1,474 @@
+# This Report Contains the Outputs for the Baseline Model Under Different Settings to help
+# determine the best parameters
+
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+# Changing the Epoch Count Only
+---------------------------------------------------------------------------------------------
+
+[Parameters] Epochs: 1  Learning Rate: 0.001  Batch Size: 64  Optimizer: SGD
+[Epoch 1] Cross Entropy Loss: 0.7755980491638184
+Test Accuracy: 78.09%
+
+[Parameters] Epochs: 10  Learning Rate: 0.001  Batch Size: 64  Optimizer: SGD 
+[Epoch 1] Cross Entropy Loss: 0.774019718170166
+[Epoch 2] Cross Entropy Loss: 0.6246497631072998
+[Epoch 3] Cross Entropy Loss: 0.5597871541976929
+[Epoch 4] Cross Entropy Loss: 0.5218764543533325
+[Epoch 5] Cross Entropy Loss: 0.49660158157348633
+[Epoch 6] Cross Entropy Loss: 0.47840815782546997
+[Epoch 7] Cross Entropy Loss: 0.4646124541759491
+[Epoch 8] Cross Entropy Loss: 0.45373857021331787
+[Epoch 9] Cross Entropy Loss: 0.4449031949043274
+[Epoch 10] Cross Entropy Loss: 0.4375436305999756
+Test Accuracy: 83.05%
+
+[Parameters] Epochs: 20  Learning Rate: 0.001  Batch Size: 64  Optimizer: SGD
+[Epoch 1] Cross Entropy Loss: 0.7739695906639099
+[Epoch 2] Cross Entropy Loss: 0.624964714050293
+[Epoch 3] Cross Entropy Loss: 0.5603143572807312
+[Epoch 4] Cross Entropy Loss: 0.5224952101707458
+[Epoch 5] Cross Entropy Loss: 0.49727535247802734
+[Epoch 6] Cross Entropy Loss: 0.479126513004303
+[Epoch 7] Cross Entropy Loss: 0.4653734564781189
+[Epoch 8] Cross Entropy Loss: 0.45454323291778564
+[Epoch 9] Cross Entropy Loss: 0.445753276348114
+[Epoch 10] Cross Entropy Loss: 0.4384414553642273
+[Epoch 11] Cross Entropy Loss: 0.43223273754119873
+[Epoch 12] Cross Entropy Loss: 0.42686837911605835
+[Epoch 13] Cross Entropy Loss: 0.4221636652946472
+[Epoch 14] Cross Entropy Loss: 0.41798457503318787
+[Epoch 15] Cross Entropy Loss: 0.4142305254936218
+[Epoch 16] Cross Entropy Loss: 0.41082578897476196
+[Epoch 17] Cross Entropy Loss: 0.4077114164829254
+[Epoch 18] Cross Entropy Loss: 0.4048421382904053
+[Epoch 19] Cross Entropy Loss: 0.40218108892440796
+[Epoch 20] Cross Entropy Loss: 0.3996995687484741
+Test Accuracy: 83.58%
+
+[Parameters] Epochs: 50  Learning Rate: 0.001  Batch Size: 64  Optimizer: SGD
+[Epoch 1] Cross Entropy Loss: 0.780800461769104
+[Epoch 2] Cross Entropy Loss: 0.6291874051094055
+[Epoch 3] Cross Entropy Loss: 0.5634281635284424
+[Epoch 4] Cross Entropy Loss: 0.5250204801559448
+[Epoch 5] Cross Entropy Loss: 0.49944186210632324
+[Epoch 6] Cross Entropy Loss: 0.481057345867157
+[Epoch 7] Cross Entropy Loss: 0.4671432375907898
+[Epoch 8] Cross Entropy Loss: 0.45620042085647583
+[Epoch 9] Cross Entropy Loss: 0.44733095169067383
+[Epoch 10] Cross Entropy Loss: 0.4399622678756714
+[Epoch 11] Cross Entropy Loss: 0.4337128698825836
+[Epoch 12] Cross Entropy Loss: 0.4283190369606018
+[Epoch 13] Cross Entropy Loss: 0.42359310388565063
+[Epoch 14] Cross Entropy Loss: 0.4193980097770691
+[Epoch 15] Cross Entropy Loss: 0.41563186049461365
+[Epoch 16] Cross Entropy Loss: 0.412217378616333
+[Epoch 17] Cross Entropy Loss: 0.4090948700904846
+[Epoch 18] Cross Entropy Loss: 0.406218022108078
+[Epoch 19] Cross Entropy Loss: 0.4035499691963196
+[Epoch 20] Cross Entropy Loss: 0.40106141567230225
+[Epoch 21] Cross Entropy Loss: 0.39872831106185913
+[Epoch 22] Cross Entropy Loss: 0.39653101563453674
+[Epoch 23] Cross Entropy Loss: 0.3944540023803711
+[Epoch 24] Cross Entropy Loss: 0.39248329401016235
+[Epoch 25] Cross Entropy Loss: 0.3906080722808838
+[Epoch 26] Cross Entropy Loss: 0.38881880044937134
+[Epoch 27] Cross Entropy Loss: 0.3871074318885803
+[Epoch 28] Cross Entropy Loss: 0.3854670822620392
+[Epoch 29] Cross Entropy Loss: 0.38389158248901367
+[Epoch 30] Cross Entropy Loss: 0.3823757469654083
+[Epoch 31] Cross Entropy Loss: 0.3809152841567993
+[Epoch 32] Cross Entropy Loss: 0.37950599193573
+[Epoch 33] Cross Entropy Loss: 0.37814468145370483
+[Epoch 34] Cross Entropy Loss: 0.37682807445526123
+[Epoch 35] Cross Entropy Loss: 0.37555310130119324
+[Epoch 36] Cross Entropy Loss: 0.3743174970149994
+[Epoch 37] Cross Entropy Loss: 0.373119056224823
+[Epoch 38] Cross Entropy Loss: 0.3719555139541626
+[Epoch 39] Cross Entropy Loss: 0.3708251714706421
+[Epoch 40] Cross Entropy Loss: 0.36972641944885254
+[Epoch 41] Cross Entropy Loss: 0.3686577081680298
+[Epoch 42] Cross Entropy Loss: 0.3676173985004425
+[Epoch 43] Cross Entropy Loss: 0.36660444736480713
+[Epoch 44] Cross Entropy Loss: 0.36561721563339233
+[Epoch 45] Cross Entropy Loss: 0.36465513706207275
+[Epoch 46] Cross Entropy Loss: 0.36371663212776184
+[Epoch 47] Cross Entropy Loss: 0.3628009259700775
+[Epoch 48] Cross Entropy Loss: 0.3619072437286377
+[Epoch 49] Cross Entropy Loss: 0.3610345125198364
+[Epoch 50] Cross Entropy Loss: 0.3601819574832916
+Test Accuracy: 83.91%
+
+[Parameters] Epochs: 100  Learning Rate: 0.001  Batch Size: 64  Optimizer: SGD
+[Epoch 1] Cross Entropy Loss: 0.7707451581954956
+[Epoch 2] Cross Entropy Loss: 0.6224147081375122
+[Epoch 3] Cross Entropy Loss: 0.5580838918685913
+[Epoch 4] Cross Entropy Loss: 0.5205153226852417
+[Epoch 5] Cross Entropy Loss: 0.4955010712146759
+[Epoch 6] Cross Entropy Loss: 0.47752243280410767
+[Epoch 7] Cross Entropy Loss: 0.46391063928604126
+[Epoch 8] Cross Entropy Loss: 0.45319801568984985
+[Epoch 9] Cross Entropy Loss: 0.44450610876083374
+[Epoch 10] Cross Entropy Loss: 0.4372764825820923
+[Epoch 11] Cross Entropy Loss: 0.4311367869377136
+[Epoch 12] Cross Entropy Loss: 0.42583054304122925
+[Epoch 13] Cross Entropy Loss: 0.42117518186569214
+[Epoch 14] Cross Entropy Loss: 0.4170374870300293
+[Epoch 15] Cross Entropy Loss: 0.4133188724517822
+[Epoch 16] Cross Entropy Loss: 0.40994393825531006
+[Epoch 17] Cross Entropy Loss: 0.4068549573421478
+[Epoch 18] Cross Entropy Loss: 0.4040070176124573
+[Epoch 19] Cross Entropy Loss: 0.4013642966747284
+[Epoch 20] Cross Entropy Loss: 0.3988979458808899
+[Epoch 21] Cross Entropy Loss: 0.39658477902412415
+[Epoch 22] Cross Entropy Loss: 0.39440590143203735
+[Epoch 23] Cross Entropy Loss: 0.3923456072807312
+[Epoch 24] Cross Entropy Loss: 0.3903909921646118
+[Epoch 25] Cross Entropy Loss: 0.3885307312011719
+[Epoch 26] Cross Entropy Loss: 0.3867560029029846
+[Epoch 27] Cross Entropy Loss: 0.38505837321281433
+[Epoch 28] Cross Entropy Loss: 0.38343143463134766
+[Epoch 29] Cross Entropy Loss: 0.3818691372871399
+[Epoch 30] Cross Entropy Loss: 0.3803662061691284
+[Epoch 31] Cross Entropy Loss: 0.3789183795452118
+[Epoch 32] Cross Entropy Loss: 0.37752199172973633
+[Epoch 33] Cross Entropy Loss: 0.37617310881614685
+[Epoch 34] Cross Entropy Loss: 0.37486863136291504
+[Epoch 35] Cross Entropy Loss: 0.3736061751842499
+[Epoch 36] Cross Entropy Loss: 0.3723827600479126
+[Epoch 37] Cross Entropy Loss: 0.37119656801223755
+[Epoch 38] Cross Entropy Loss: 0.37004539370536804
+[Epoch 39] Cross Entropy Loss: 0.3689272999763489
+[Epoch 40] Cross Entropy Loss: 0.3678407371044159
+[Epoch 41] Cross Entropy Loss: 0.3667841851711273
+[Epoch 42] Cross Entropy Loss: 0.36575594544410706
+[Epoch 43] Cross Entropy Loss: 0.3647547662258148
+[Epoch 44] Cross Entropy Loss: 0.3637797236442566
+[Epoch 45] Cross Entropy Loss: 0.36282971501350403
+[Epoch 46] Cross Entropy Loss: 0.36190295219421387
+[Epoch 47] Cross Entropy Loss: 0.3609992265701294
+[Epoch 48] Cross Entropy Loss: 0.36011743545532227
+[Epoch 49] Cross Entropy Loss: 0.35925644636154175
+[Epoch 50] Cross Entropy Loss: 0.35841572284698486
+[Epoch 51] Cross Entropy Loss: 0.35759416222572327
+[Epoch 52] Cross Entropy Loss: 0.35679155588150024
+[Epoch 53] Cross Entropy Loss: 0.35600659251213074
+[Epoch 54] Cross Entropy Loss: 0.35523903369903564
+[Epoch 55] Cross Entropy Loss: 0.35448846220970154
+[Epoch 56] Cross Entropy Loss: 0.35375362634658813
+[Epoch 57] Cross Entropy Loss: 0.35303452610969543
+[Epoch 58] Cross Entropy Loss: 0.3523305058479309
+[Epoch 59] Cross Entropy Loss: 0.35164082050323486
+[Epoch 60] Cross Entropy Loss: 0.35096508264541626
+[Epoch 61] Cross Entropy Loss: 0.3503033518791199
+[Epoch 62] Cross Entropy Loss: 0.3496546149253845
+[Epoch 63] Cross Entropy Loss: 0.3490186035633087
+[Epoch 64] Cross Entropy Loss: 0.34839481115341187
+[Epoch 65] Cross Entropy Loss: 0.3477829396724701
+[Epoch 66] Cross Entropy Loss: 0.34718286991119385
+[Epoch 67] Cross Entropy Loss: 0.34659385681152344
+[Epoch 68] Cross Entropy Loss: 0.34601593017578125
+[Epoch 69] Cross Entropy Loss: 0.34544846415519714
+[Epoch 70] Cross Entropy Loss: 0.3448915183544159
+[Epoch 71] Cross Entropy Loss: 0.3443440794944763
+[Epoch 72] Cross Entropy Loss: 0.343806654214859
+[Epoch 73] Cross Entropy Loss: 0.3432784080505371
+[Epoch 74] Cross Entropy Loss: 0.3427594304084778
+[Epoch 75] Cross Entropy Loss: 0.34224948287010193
+[Epoch 76] Cross Entropy Loss: 0.3417479693889618
+[Epoch 77] Cross Entropy Loss: 0.3412550389766693
+[Epoch 78] Cross Entropy Loss: 0.34077024459838867
+[Epoch 79] Cross Entropy Loss: 0.34029337763786316
+[Epoch 80] Cross Entropy Loss: 0.3398243188858032
+[Epoch 81] Cross Entropy Loss: 0.3393627405166626
+[Epoch 82] Cross Entropy Loss: 0.33890867233276367
+[Epoch 83] Cross Entropy Loss: 0.3384615182876587
+[Epoch 84] Cross Entropy Loss: 0.33802148699760437
+[Epoch 85] Cross Entropy Loss: 0.33758828043937683
+[Epoch 86] Cross Entropy Loss: 0.33716195821762085
+[Epoch 87] Cross Entropy Loss: 0.3367416560649872
+[Epoch 88] Cross Entropy Loss: 0.33632776141166687
+[Epoch 89] Cross Entropy Loss: 0.3359200954437256
+[Epoch 90] Cross Entropy Loss: 0.33551809191703796
+[Epoch 91] Cross Entropy Loss: 0.3351222574710846
+[Epoch 92] Cross Entropy Loss: 0.334732323884964
+[Epoch 93] Cross Entropy Loss: 0.3343479037284851
+[Epoch 94] Cross Entropy Loss: 0.3339688181877136
+[Epoch 95] Cross Entropy Loss: 0.33359506726264954
+[Epoch 96] Cross Entropy Loss: 0.33322659134864807
+[Epoch 97] Cross Entropy Loss: 0.3328634202480316
+[Epoch 98] Cross Entropy Loss: 0.33250489830970764
+[Epoch 99] Cross Entropy Loss: 0.33215129375457764
+[Epoch 100] Cross Entropy Loss: 0.3318024277687073
+Test Accuracy: 83.99%
+
+
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+# Changing Learning Rate
+---------------------------------------------------------------------------------------------
+
+[Parameters] Epochs: 20  Learning Rate: 0.1  Batch Size: 64  Optimizer: SGD
+[Epoch 1] Cross Entropy Loss: 0.9838649034500122
+[Epoch 2] Cross Entropy Loss: 0.6561625003814697
+[Epoch 3] Cross Entropy Loss: 0.6147819757461548
+[Epoch 4] Cross Entropy Loss: 0.5994998812675476
+[Epoch 5] Cross Entropy Loss: 0.5988569259643555
+[Epoch 6] Cross Entropy Loss: 0.5684744119644165
+[Epoch 7] Cross Entropy Loss: 0.5415735840797424
+[Epoch 8] Cross Entropy Loss: 0.5183030366897583
+[Epoch 9] Cross Entropy Loss: 0.509287416934967
+[Epoch 10] Cross Entropy Loss: 0.5067226886749268
+[Epoch 11] Cross Entropy Loss: 0.5046943426132202
+[Epoch 12] Cross Entropy Loss: 0.4964391887187958
+[Epoch 13] Cross Entropy Loss: 0.4932732582092285
+[Epoch 14] Cross Entropy Loss: 0.5011476278305054
+[Epoch 15] Cross Entropy Loss: 0.5051905512809753
+[Epoch 16] Cross Entropy Loss: 0.4858512580394745
+[Epoch 17] Cross Entropy Loss: 0.4749537706375122
+[Epoch 18] Cross Entropy Loss: 0.481071799993515
+[Epoch 19] Cross Entropy Loss: 0.4866862893104553
+[Epoch 20] Cross Entropy Loss: 0.4882162809371948
+Test Accuracy: 76.57%
+
+[Parameters] Epochs: 20  Learning Rate: 0.01  Batch Size: 64  Optimizer: SGD
+[Epoch 1] Cross Entropy Loss: 0.4709411859512329
+[Epoch 2] Cross Entropy Loss: 0.4227958917617798
+[Epoch 3] Cross Entropy Loss: 0.3997553586959839
+[Epoch 4] Cross Entropy Loss: 0.38446372747421265
+[Epoch 5] Cross Entropy Loss: 0.37309595942497253
+[Epoch 6] Cross Entropy Loss: 0.36418449878692627
+[Epoch 7] Cross Entropy Loss: 0.356963574886322
+[Epoch 8] Cross Entropy Loss: 0.35096684098243713
+[Epoch 9] Cross Entropy Loss: 0.34588688611984253
+[Epoch 10] Cross Entropy Loss: 0.34151187539100647
+[Epoch 11] Cross Entropy Loss: 0.3376922309398651
+[Epoch 12] Cross Entropy Loss: 0.33431845903396606
+[Epoch 13] Cross Entropy Loss: 0.3313089609146118
+[Epoch 14] Cross Entropy Loss: 0.32860076427459717
+[Epoch 15] Cross Entropy Loss: 0.32614463567733765
+[Epoch 16] Cross Entropy Loss: 0.32390204071998596
+[Epoch 17] Cross Entropy Loss: 0.3218419849872589
+[Epoch 18] Cross Entropy Loss: 0.3199405074119568
+[Epoch 19] Cross Entropy Loss: 0.3181781768798828
+[Epoch 20] Cross Entropy Loss: 0.31653928756713867
+Test Accuracy: 83.59%
+
+[Parameters] Epochs: 20  Learning Rate: 0.001  Batch Size: 64  Optimizer: SGD
+[Epoch 1] Cross Entropy Loss: 0.7739695906639099
+[Epoch 2] Cross Entropy Loss: 0.624964714050293
+[Epoch 3] Cross Entropy Loss: 0.5603143572807312
+[Epoch 4] Cross Entropy Loss: 0.5224952101707458
+[Epoch 5] Cross Entropy Loss: 0.49727535247802734
+[Epoch 6] Cross Entropy Loss: 0.479126513004303
+[Epoch 7] Cross Entropy Loss: 0.4653734564781189
+[Epoch 8] Cross Entropy Loss: 0.45454323291778564
+[Epoch 9] Cross Entropy Loss: 0.445753276348114
+[Epoch 10] Cross Entropy Loss: 0.4384414553642273
+[Epoch 11] Cross Entropy Loss: 0.43223273754119873
+[Epoch 12] Cross Entropy Loss: 0.42686837911605835
+[Epoch 13] Cross Entropy Loss: 0.4221636652946472
+[Epoch 14] Cross Entropy Loss: 0.41798457503318787
+[Epoch 15] Cross Entropy Loss: 0.4142305254936218
+[Epoch 16] Cross Entropy Loss: 0.41082578897476196
+[Epoch 17] Cross Entropy Loss: 0.4077114164829254
+[Epoch 18] Cross Entropy Loss: 0.4048421382904053
+[Epoch 19] Cross Entropy Loss: 0.40218108892440796
+[Epoch 20] Cross Entropy Loss: 0.3996995687484741
+Test Accuracy: 83.58%
+
+[Parameters] Epochs: 20  Learning Rate: 0.0001  Batch Size: 64  Optimizer: SGD
+[Epoch 1] Cross Entropy Loss: 1.972919225692749
+[Epoch 2] Cross Entropy Loss: 1.4283318519592285
+[Epoch 3] Cross Entropy Loss: 1.2008745670318604
+[Epoch 4] Cross Entropy Loss: 1.0702660083770752
+[Epoch 5] Cross Entropy Loss: 0.9830904603004456
+[Epoch 6] Cross Entropy Loss: 0.9196109771728516
+[Epoch 7] Cross Entropy Loss: 0.8707114458084106
+[Epoch 8] Cross Entropy Loss: 0.8315397500991821
+[Epoch 9] Cross Entropy Loss: 0.7992454171180725
+[Epoch 10] Cross Entropy Loss: 0.7720276713371277
+[Epoch 11] Cross Entropy Loss: 0.7486855983734131
+[Epoch 12] Cross Entropy Loss: 0.728381335735321
+[Epoch 13] Cross Entropy Loss: 0.7105116248130798
+[Epoch 14] Cross Entropy Loss: 0.6946282982826233
+[Epoch 15] Cross Entropy Loss: 0.6803905367851257
+[Epoch 16] Cross Entropy Loss: 0.6675348877906799
+[Epoch 17] Cross Entropy Loss: 0.655852735042572
+[Epoch 18] Cross Entropy Loss: 0.6451776027679443
+[Epoch 19] Cross Entropy Loss: 0.6353740692138672
+[Epoch 20] Cross Entropy Loss: 0.626331090927124
+Test Accuracy: 80.49%
+
+
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+# Changing Batch Sizes
+---------------------------------------------------------------------------------------------
+
+[Parameters] Epochs: 20  Learning Rate: 0.001  Batch Size: 16  Optimizer: SGD
+[Epoch 1] Cross Entropy Loss: 0.6903378963470459
+[Epoch 2] Cross Entropy Loss: 0.5919262170791626
+[Epoch 3] Cross Entropy Loss: 0.5484142303466797
+[Epoch 4] Cross Entropy Loss: 0.5216905474662781
+[Epoch 5] Cross Entropy Loss: 0.5026492476463318
+[Epoch 6] Cross Entropy Loss: 0.4880335330963135
+[Epoch 7] Cross Entropy Loss: 0.4763373136520386
+[Epoch 8] Cross Entropy Loss: 0.46672672033309937
+[Epoch 9] Cross Entropy Loss: 0.4586820602416992
+[Epoch 10] Cross Entropy Loss: 0.4518499970436096
+[Epoch 11] Cross Entropy Loss: 0.4459756910800934
+[Epoch 12] Cross Entropy Loss: 0.4408722221851349
+[Epoch 13] Cross Entropy Loss: 0.4363953769207001
+[Epoch 14] Cross Entropy Loss: 0.4324325919151306
+[Epoch 15] Cross Entropy Loss: 0.4288955330848694
+[Epoch 16] Cross Entropy Loss: 0.4257137179374695
+[Epoch 17] Cross Entropy Loss: 0.422829806804657
+[Epoch 18] Cross Entropy Loss: 0.4201969504356384
+[Epoch 19] Cross Entropy Loss: 0.417777955532074
+[Epoch 20] Cross Entropy Loss: 0.4155418872833252
+Test Accuracy: 83.87%
+
+[Parameters] Epochs: 20  Learning Rate: 0.001  Batch Size: 32  Optimizer: SGD
+[Epoch 1] Cross Entropy Loss: 0.8067014217376709
+[Epoch 2] Cross Entropy Loss: 0.6737017631530762
+[Epoch 3] Cross Entropy Loss: 0.6179887056350708
+[Epoch 4] Cross Entropy Loss: 0.5875162482261658
+[Epoch 5] Cross Entropy Loss: 0.5683258771896362
+[Epoch 6] Cross Entropy Loss: 0.5549858808517456
+[Epoch 7] Cross Entropy Loss: 0.5449792146682739
+[Epoch 8] Cross Entropy Loss: 0.5370098948478699
+[Epoch 9] Cross Entropy Loss: 0.5303598642349243
+[Epoch 10] Cross Entropy Loss: 0.5246089696884155
+[Epoch 11] Cross Entropy Loss: 0.5195001363754272
+[Epoch 12] Cross Entropy Loss: 0.5148699879646301
+[Epoch 13] Cross Entropy Loss: 0.510612964630127
+[Epoch 14] Cross Entropy Loss: 0.5066558122634888
+[Epoch 15] Cross Entropy Loss: 0.5029486417770386
+[Epoch 16] Cross Entropy Loss: 0.49945515394210815
+[Epoch 17] Cross Entropy Loss: 0.4961489737033844
+[Epoch 18] Cross Entropy Loss: 0.49300897121429443
+[Epoch 19] Cross Entropy Loss: 0.4900199770927429
+[Epoch 20] Cross Entropy Loss: 0.48716896772384644
+Test Accuracy: 83.89%
+
+[Parameters] Epochs: 20  Learning Rate: 0.001  Batch Size: 128  Optimizer: SGD
+[Epoch 1] Cross Entropy Loss: 0.9823458194732666
+[Epoch 2] Cross Entropy Loss: 0.7685090899467468
+[Epoch 3] Cross Entropy Loss: 0.6754694581031799
+[Epoch 4] Cross Entropy Loss: 0.620394229888916
+[Epoch 5] Cross Entropy Loss: 0.5829848051071167
+[Epoch 6] Cross Entropy Loss: 0.5555013418197632
+[Epoch 7] Cross Entropy Loss: 0.5342604517936707
+[Epoch 8] Cross Entropy Loss: 0.5172501802444458
+[Epoch 9] Cross Entropy Loss: 0.5032618045806885
+[Epoch 10] Cross Entropy Loss: 0.49151766300201416
+[Epoch 11] Cross Entropy Loss: 0.48149120807647705
+[Epoch 12] Cross Entropy Loss: 0.4728107452392578
+[Epoch 13] Cross Entropy Loss: 0.46520566940307617
+[Epoch 14] Cross Entropy Loss: 0.45847421884536743
+[Epoch 15] Cross Entropy Loss: 0.4524618983268738
+[Epoch 16] Cross Entropy Loss: 0.44704875349998474
+[Epoch 17] Cross Entropy Loss: 0.44214046001434326
+[Epoch 18] Cross Entropy Loss: 0.43766099214553833
+[Epoch 19] Cross Entropy Loss: 0.433549165725708
+[Epoch 20] Cross Entropy Loss: 0.4297551214694977
+Test Accuracy: 83.17%
+
+[Parameters] Epochs: 20  Learning Rate: 0.001  Batch Size: 512  Optimizer: SGD
+[Epoch 1] Cross Entropy Loss: 1.9067621231079102
+[Epoch 2] Cross Entropy Loss: 1.4504340887069702
+[Epoch 3] Cross Entropy Loss: 1.2594791650772095
+[Epoch 4] Cross Entropy Loss: 1.1485283374786377
+[Epoch 5] Cross Entropy Loss: 1.07391357421875
+[Epoch 6] Cross Entropy Loss: 1.0193581581115723
+[Epoch 7] Cross Entropy Loss: 0.9772371053695679
+[Epoch 8] Cross Entropy Loss: 0.9434419870376587
+[Epoch 9] Cross Entropy Loss: 0.915539026260376
+[Epoch 10] Cross Entropy Loss: 0.8919836282730103
+[Epoch 11] Cross Entropy Loss: 0.8717425465583801
+[Epoch 12] Cross Entropy Loss: 0.8540955185890198
+[Epoch 13] Cross Entropy Loss: 0.8385233879089355
+[Epoch 14] Cross Entropy Loss: 0.8246415853500366
+[Epoch 15] Cross Entropy Loss: 0.8121580481529236
+[Epoch 16] Cross Entropy Loss: 0.8008471727371216
+[Epoch 17] Cross Entropy Loss: 0.7905309200286865
+[Epoch 18] Cross Entropy Loss: 0.7810673713684082
+[Epoch 19] Cross Entropy Loss: 0.772341251373291
+[Epoch 20] Cross Entropy Loss: 0.7642583250999451
+Test Accuracy: 81.04%
+
+[Parameters] Epochs: 20  Learning Rate: 0.001  Batch Size: 1024  Optimizer: SGD
+[Epoch 1] Cross Entropy Loss: 2.6086130142211914
+[Epoch 2] Cross Entropy Loss: 1.9124822616577148
+[Epoch 3] Cross Entropy Loss: 1.6196738481521606
+[Epoch 4] Cross Entropy Loss: 1.4518978595733643
+[Epoch 5] Cross Entropy Loss: 1.3401991128921509
+[Epoch 6] Cross Entropy Loss: 1.2590900659561157
+[Epoch 7] Cross Entropy Loss: 1.1967747211456299
+[Epoch 8] Cross Entropy Loss: 1.1469637155532837
+[Epoch 9] Cross Entropy Loss: 1.1059632301330566
+[Epoch 10] Cross Entropy Loss: 1.0714428424835205
+[Epoch 11] Cross Entropy Loss: 1.0418522357940674
+[Epoch 12] Cross Entropy Loss: 1.0161137580871582
+[Epoch 13] Cross Entropy Loss: 0.9934524893760681
+[Epoch 14] Cross Entropy Loss: 0.9732955694198608
+[Epoch 15] Cross Entropy Loss: 0.9552085399627686
+[Epoch 16] Cross Entropy Loss: 0.9388555288314819
+[Epoch 17] Cross Entropy Loss: 0.9239720702171326
+[Epoch 18] Cross Entropy Loss: 0.9103467464447021
+[Epoch 19] Cross Entropy Loss: 0.897808849811554
+[Epoch 20] Cross Entropy Loss: 0.8862177133560181
+Test Accuracy: 78.90%
+
+
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+# Choosing the Optimizer
+---------------------------------------------------------------------------------------------
+
+[Parameters] Epochs: 20  Learning Rate: 0.001  Batch Size: 64  Optimizer: Adam
+[Epoch 1] Loss: 0.434589684009552
+[Epoch 2] Loss: 0.3888327479362488
+[Epoch 3] Loss: 0.3654521703720093
+[Epoch 4] Loss: 0.3495464324951172
+[Epoch 5] Loss: 0.33728110790252686
+[Epoch 6] Loss: 0.3274087905883789
+[Epoch 7] Loss: 0.3192422389984131
+[Epoch 8] Loss: 0.3123440444469452
+[Epoch 9] Loss: 0.30642005801200867
+[Epoch 10] Loss: 0.30126073956489563
+[Epoch 11] Loss: 0.29671382904052734
+[Epoch 12] Loss: 0.2926691472530365
+[Epoch 13] Loss: 0.28904205560684204
+[Epoch 14] Loss: 0.28576672077178955
+[Epoch 15] Loss: 0.282789945602417
+[Epoch 16] Loss: 0.28006917238235474
+[Epoch 17] Loss: 0.2775692641735077
+[Epoch 18] Loss: 0.2752632200717926
+[Epoch 19] Loss: 0.27312779426574707
+[Epoch 20] Loss: 0.2711443305015564
+Test Accuracy: 82.90%
+
+[Parameters] Epochs: 20  Learning Rate: 0.001  Batch Size: 128  Optimizer: SGD
+[Epoch 1] Cross Entropy Loss: 0.9823458194732666
+[Epoch 2] Cross Entropy Loss: 0.7685090899467468
+[Epoch 3] Cross Entropy Loss: 0.6754694581031799
+[Epoch 4] Cross Entropy Loss: 0.620394229888916
+[Epoch 5] Cross Entropy Loss: 0.5829848051071167
+[Epoch 6] Cross Entropy Loss: 0.5555013418197632
+[Epoch 7] Cross Entropy Loss: 0.5342604517936707
+[Epoch 8] Cross Entropy Loss: 0.5172501802444458
+[Epoch 9] Cross Entropy Loss: 0.5032618045806885
+[Epoch 10] Cross Entropy Loss: 0.49151766300201416
+[Epoch 11] Cross Entropy Loss: 0.48149120807647705
+[Epoch 12] Cross Entropy Loss: 0.4728107452392578
+[Epoch 13] Cross Entropy Loss: 0.46520566940307617
+[Epoch 14] Cross Entropy Loss: 0.45847421884536743
+[Epoch 15] Cross Entropy Loss: 0.4524618983268738
+[Epoch 16] Cross Entropy Loss: 0.44704875349998474
+[Epoch 17] Cross Entropy Loss: 0.44214046001434326
+[Epoch 18] Cross Entropy Loss: 0.43766099214553833
+[Epoch 19] Cross Entropy Loss: 0.433549165725708
+[Epoch 20] Cross Entropy Loss: 0.4297551214694977
+Test Accuracy: 83.17%

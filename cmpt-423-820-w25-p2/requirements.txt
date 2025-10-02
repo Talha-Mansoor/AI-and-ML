@@ -1,0 +1,12 @@
+torch>=2.6.0
+numpy>=2.2.2
+plotly
+pandas
+ipython
+ipykernel
+nbformat
+scikit-learn
+pytest
+click
+black
+flake8

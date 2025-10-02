@@ -1,0 +1,12 @@
+performance comparison using best hyperparameters:
+Baseline:[ epochs=20 ] -- [ learning rate=0.001 ] -- [ batch size=32 ] -- [ optimization=sgd ]
+Improved:[ epochs=20 ] -- [ learning rate=0.001 ] -- [ batch size=64 ] -- [ optimization=adam ]
+	Baseline Accuracies = [83.87, 83.85, 83.81, 83.81, 83.82, 83.84, 83.84, 83.86, 83.9, 83.89]
+	Improved Accuracies = [90.74, 91.24, 91.01, 91.13, 91.19, 90.91, 90.79, 91.27, 91.61, 91.22]
+	Baseline Mean Accuracy: 83.849
+	Improved Mean Accuracy: 91.111
+	Baseline SEM: 0.0099
+	Improved SEM: 0.0817
+	Baseline 68% Confidence Interval: [83.839, 83.859]
+	Improved 68% Confidence Interval: [91.029, 91.193]
+

@@ -1,0 +1,14 @@
+{
+    "recommendations": [
+        "ms-python.black-formatter",
+        "ms-python.python",
+        "ms-python.debugpy",
+        "ms-python.pylint",
+        "ms-python.flake8",
+        "ms-toolsai.jupyter",
+        "ms-python.vscode-pylance",
+        "ms-vscode-remote.remote-ssh",
+        "ms-vscode-remote.remote-ssh-edit",
+        "ms-vscode.remote-explorer"
+    ]
+}

@@ -1,0 +1,40 @@
+{
+    "[python]": {
+        "diffEditor.ignoreTrimWhitespace": false,
+        "editor.formatOnType": true,
+        "editor.wordBasedSuggestions": "off",
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "explicit"
+        }
+    },
+    "black-formatter.args": [
+        "--line-length=79"
+    ],
+    "isort.args": [
+        "--profile",
+        "black"
+    ],
+    "editor.formatOnSave": true,
+    "pylint.importStrategy": "useBundled",
+    "pylint.args": [
+        "--disable=C0114",
+        "--disable=C0115",
+        "--disable=C0116",
+        "--disable=C0415",
+        "--disable=W1203",
+    ],
+    "flake8.args": [
+        "--select BLK",
+        "--ignore=E203,E501,F841,W291,W293"
+    ],
+    "mypy-type-checker.args": [
+        "--ignore-missing-imports",
+        "--check-untypes-defs",
+    ],
+    "python.testing.pytestArgs": [
+        "test"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true,
+}
