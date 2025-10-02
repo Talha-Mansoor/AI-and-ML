@@ -1,0 +1,10 @@
+numpy>=2.2.2
+plotly
+pandas
+ipython
+ipykernel
+nbformat
+pandas
+pytest
+click
+matplotlib
